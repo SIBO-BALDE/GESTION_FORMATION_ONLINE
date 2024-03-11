@@ -1,0 +1,58 @@
+/* Declaration des variables pour les  couleurs */
+:root {
+    --main-color: #1F425D;
+    --second-color: #E94D1A;
+    --third-color: #4AB9CF;
+    --white-color: #FFFFFF;
+}
+
+.input-newsletter{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+input::placeholder{
+   padding: 2vh;
+   color: #525252;
+   font-size: 0.8em;
+}
+.btn-suscribe{
+    background-color: var(--second-color);
+    color: var(--white-color);
+    width: 50%;
+    height: 35px;
+    border: none;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+
+
+#soulignement{
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    background-color: var(--second-color);
+    height: 3px;
+    margin-bottom: 5vh;
+}
+#titrePolitique{
+    text-align: center;
+}
+.container{
+    width: 65%;
+    margin-top: 18%;
+    margin-bottom: 5vh;
+    padding-bottom: 10%;
+   
+
+}
+.contenupoli{
+    background-color: white;
+}
+.decCookies, .desConf{
+    list-style: disc;
+}
+.politiqueNUm{
+    list-style: numeric;
+}

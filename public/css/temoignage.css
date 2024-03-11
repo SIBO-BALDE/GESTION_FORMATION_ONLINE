@@ -1,0 +1,149 @@
+#banierreT {
+    background-image: url('../images/bannieres/banner_testimonial.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    margin-top: 7vh;
+    color: white;
+    padding: 28vh 0;
+}
+.banierreT .title{
+    margin-top: 10%;
+}
+.sectionTemoignage{
+    /* width: 100%; */
+    background-color: #F3F3F3;
+    margin-top: 3%;
+}
+#cardTemoignage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 5vh;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center; 
+}
+#cardTemoignage .temoignageE{
+    text-align: justify;
+    padding: 10px;
+}
+#profile{
+    width: 30%;
+    height: 30%;
+    margin-top: -15%;
+}
+
+#contenuTemoin{
+    padding: 5px;
+    background-color: white;
+}
+#contenuTemoin:hover{
+    background-color: #1F425D;  
+    transform: scale(1.1);
+    color: white;
+}
+#totalTemoignage{
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+    gap: 5vh;
+ 
+}
+
+
+.contenu{
+   
+    padding: 3%;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+}
+#soulignement{
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+    background-color: var(--second-color);
+    height: 3px;
+    margin-bottom: 5vh;
+}
+#titrePage{
+    text-align: center;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1300px) {
+    .sectionTemoignage{
+        width: 100%;
+    }
+    .banierreT {
+        background-image: url('/Groupe-6-Brief3-DarrayTech/public/images/bannieres/banner_testimonial.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 550px;
+        margin-top: -2vh;
+        color: white;
+        padding: 28vh 0;
+    }
+       
+ }
+ .input-newsletter{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+input::placeholder{
+   padding: 2vh;
+   color: #525252;
+   font-size: 0.8em;
+}
+.btn-suscribe{
+    background-color: var(--second-color);
+    color: var(--white-color);
+    width: 50%;
+    height: 35px;
+    border: none;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+
+@media only screen  and (max-width: 990px) {
+    
+    
+    .sectionTemoignage{
+        /* width: 100%; */
+    
+    }
+    #cardTemoignage{
+        display: grid;
+        grid-template-columns: 2fr  2fr;    
+    }
+    .banierreT {
+        background-image: url('/Groupe-6-Brief3-DarrayTech/public/images/bannieres/banner_testimonial.png') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 550px;
+        /* margin-top: -25vh; */
+        color: white;
+        padding: 28vh 0;
+    }
+    .banierreT .title{
+        margin-top: 11%;
+    }
+}
+@media only screen  and (max-width: 500px) {
+    
+    #cardTemoignage{
+        display: grid;
+        grid-template-columns: 2fr; 
+          
+    }
+    .banierreT .title{
+        margin-top: 22%;
+        padding-right: 3%;
+    }
+}
+
